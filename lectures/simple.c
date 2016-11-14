@@ -3,7 +3,10 @@
 
 int* just_a_func(){
     int *heapintlist;
+<<<<<<< HEAD
     # pointers
+=======
+>>>>>>> course/master
     int i;
     int stackintlist[3]; /*Allocate in this functions frame on stack*/
     heapintlist = (int *) malloc(3*sizeof(int)); /*Allocate on heap*/
@@ -27,6 +30,9 @@ int main() {
         printf("heapintlist %d :  %d\n", i, heapintlist[i]);
     }
     free(heapintlist);
+<<<<<<< HEAD
     #free an entire list
+=======
+>>>>>>> course/master
     /* garbage in &heapinlist[i] after this */
 }
